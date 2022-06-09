@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: rgb(215, 255, 246);
 }
 .top {
   height: 100vh;
@@ -9,6 +9,13 @@ body {
   background-position: center;
 }
 
+.linkedin {
+  color: rgb(168, 0, 70);
+}
+
+.github {
+  color: rgb(168, 0, 70);
+}
 nav {
   display: flex;
   align-items: center;
