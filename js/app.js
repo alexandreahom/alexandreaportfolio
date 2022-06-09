@@ -49,3 +49,11 @@ function workClick() {
   workPage.scrollIntoView()
 }
 
+let resumeBtn = document.querySelector('.resume')
+let resumePage = document.querySelector('.resumePage')
+
+resumeBtn.addEventListener('click', resumeClick)
+
+function resumeClick() {
+  resumePage.scrollIntoView()
+}
