@@ -1,0 +1,114 @@
+.top {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/picofthebeach.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color: pink;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: black;
+  background-color: pink;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.content {
+  text-align: center;
+  color: black;
+}
+
+.bouncing-text {
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: arial white; 
+  margin-top: 5%;
+  color: black;
+}
+
+@keyframes bounce {
+  0%   { transform: scale(1,1) translateY(0); }
+  10%  { transform: scale(1.1,.9) translateY(0); }
+  30%  { transform: scale(.9,1.1)   translateY(-55px);}
+  50%  { transform: scale(1.05,.95) translateY(0); }
+  58%  { transform: scale(1,1) translateY(-7px); }
+  65%  { transform: scale(1,1) translateY(0);}
+  100% { transform: scale(1,1) translateY(0);}
+}
+
+.a {
+  animation: bounce 1s ease ;
+}
+
+.l {
+  animation: bounce 1s ease .1s;
+}
+
+.e {
+  animation: bounce 1s ease .2s;
+}
+
+.x {
+  animation: bounce 1s ease .3s;
+}
+
+.a2 { 
+  animation: bounce 1s ease .4s;
+}
+  
+.n {
+  animation: bounce 1s ease .5s;
+}
+
+.d {
+  animation: bounce 1s ease .6s;
+ }
+  
+.r {
+ animation: bounce 1s ease .7s;
+}
+    
+.e2 { 
+  animation: bounce 1s ease .8s;
+}
+
+.a3 { 
+  animation: bounce 1s ease .9s;
+}
