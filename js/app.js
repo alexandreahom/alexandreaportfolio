@@ -21,4 +21,5 @@ let projectDataMarkup = projectData.map(project =>
   ).join('')
 
   cardContainer.innerHTML = projectDataMarkup
-  console.log(projectDataMarkup);
+ 
+ 
