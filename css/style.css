@@ -13,9 +13,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 45px;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
 }
 
 .logo {
@@ -143,7 +144,7 @@ h3 {
 
 .last {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 2%;
   margin-bottom: 20%;
   font-size: 70px;
 }
