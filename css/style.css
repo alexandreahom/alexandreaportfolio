@@ -48,7 +48,7 @@ nav ul button {
 
 }
 
-nav ul li a:hover {
+nav ul button:hover {
   color: white;
 }
 

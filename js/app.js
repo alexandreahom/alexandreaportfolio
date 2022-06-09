@@ -31,3 +31,21 @@ function contactClick() {
     contactPage.scrollIntoView()
 }
 
+let aboutMe = document.querySelector('.aboutMe')
+let aboutMePage = document.querySelector('.about')
+
+aboutMe.addEventListener('click', aboutClick)
+
+function aboutClick() {
+  aboutMePage.scrollIntoView()
+}
+
+let workBtn = document.querySelector('.myWork')
+let workPage = document.querySelector('.cards')
+
+workBtn.addEventListener('click', workClick)
+
+function workClick() {
+  workPage.scrollIntoView()
+}
+
