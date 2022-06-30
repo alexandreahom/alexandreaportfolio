@@ -21,11 +21,11 @@ let projectDataMarkup = projectData.map(project =>
   ).join('')
 
   cardContainer.innerHTML = projectDataMarkup
- 
- let contactTitle = document.querySelector('.contactTitle')
- let contactPage = document.querySelector('.contactPage')
- 
- contactTitle.addEventListener('click', contactClick)
+
+let contactTitle = document.querySelector('.contactTitle')
+let contactPage = document.querySelector('.contactPage')
+
+contactTitle.addEventListener('click', contactClick)
 
 function contactClick() {
     contactPage.scrollIntoView()
